@@ -1,0 +1,41 @@
+
+
+
+
+@media screen and (min-width:1024px) {
+header{
+    display: flex;
+    background-color: var(--azuloscuro);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    flex-basis: 40%;
+}
+.nav{
+    flex-basis: 60%;
+}
+
+.logo img{
+    width: 35%;
+}
+.menu-item{
+    font-family: 'Marcellus', serif;
+    color: var(--blanco);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.btn-azul{
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    padding: 0.5rem 1rem ;
+    font-family: 'Marcellus', serif;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+}
